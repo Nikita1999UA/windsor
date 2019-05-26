@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Windsor</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" defer></script>
+    <script src="js/wow.min.js" defer></script>
+    <script src="js/maskinput.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <section class="main">
+        <div class="main__block main__block--left">
+            <div class="main__block--container">
+                <div class="main__block_logo wow fadeInLeft" data-wow-delay="150ms" aria-label="Windsor"></div>
+                <div class="main__header wow fadeInLeft" data-wow-delay="300ms">
+                    <h1 class="main__header_title"> Lorem Ipsum </h1>
+                </div>
+                <div class="main__header main__header--two wow fadeInLeft" data-wow-delay="650ms">
+                    <h1 class="main__header_title"> Lorem </h1>
+                </div>
+                <div class="main__text wow fadeInUp" data-wow-delay="950ms">
+                    <p class="main__text_description">
+                        Заполняй заявку и принимай участие в розыгрыше
+                        <strong class=" main__text_description main__text_description--str"> гарантированных </strong> скидок до -50% на выбранное направление. 
+                    </p>
+                </div>
+            </div>
+            <form class="main__form wow fadeInRight" data-wow-delay="350ms">
+                <label for="name"></label>
+                <input class="main__form_name" type="text" name="name" placeholder="Имя" required>
+                <label for="email"></label>
+                <input class="main__form_email" type="email" name="email" placeholder="Email" required>
+                <label for="phone"></label>
+                <input class="main__form_phone" type="phone" name="phone" placeholder="Телефон" required>
+                <label for="list"></label>
+                <input class="main__form_list" name="list" placeholder="Какое направление Вас интересует?"  list="character">
+                <div class="main__form_arrow"></div>
+                <datalist id="character">
+                    <option value="Front-end Developer"></option>
+                    <option value="Back-end Developer"></option>
+                    <option value="Wordpress Developer"></option>
+                </datalist>
+                <button class="main__form_btn" type="submit">Участвовать</button>
+                <div class="main__more">
+                    <a href="#" class="main__more_link">Узнать больше о курсах</a>
+                </div>
+            </form>
+        </div>
+        <div class="main__block main__block--right"></div>
+    </section>
+</body>
+</html>
+
