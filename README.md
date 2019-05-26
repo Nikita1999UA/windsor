@@ -8,7 +8,7 @@
 
 # Work time is 50 minutes
 
-# [Link](https://nikita1999ua.github.io/windsor.github.io/)
+# [Link for page](https://nikita1999ua.github.io/windsor.github.io/)
 
 
 
