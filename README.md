@@ -3,6 +3,7 @@
 * CSS
 * jQuery
 * SASS
+* SVG
 * BEM methodology
 * Animate.css
 
